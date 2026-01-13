@@ -35,19 +35,50 @@ This lab is responsible for:
 
 - [friendly-social/android](https://github.com/friendly-social/android)
 
-### Telegram Bot Lab
+### Web Lab
 
-Owner: [@y9kap](https://github.com/y9kap)
+Owner: [@kotleni](https://github.com/kotleni)
 
-To be filled later.
+Technologies: TypeScript, React.js, Next.js, Tailwind CSS. Experimental architecture.
+
+This lab is responsible for:
+
+- [friendly-social/web](https://github.com/friendly-social/web)
+
+### iOS Lab
+
+Owner: [@y9san9](https://github.com/y9san9)
+
+Technologies: Swift, SwiftUI, Liquid Glass, Latest iOS/Swift Target. Very simple and extensible architecture.
+
+This lab is responsible for:
+
+- [friendly-social/ios](https://github.com/friendly-social/ios)
+
+### CLI Lab
+
+Owner: [@atennop](https://github.com/Atennop1)
+
+Technologies: Go and BubbleTea TUI framework. Modular Elm architecture.
+
+This lab is responsible for:
+
+- [friendly-social/cli](https://github.com/friendly-social/cli)
 
 ## Abandoned Labs
 
-None _yet_.
+You can revive it!
+
+### (Adandoned) Telegram Bot Lab
+
+Owner: [@y9kap](https://github.com/y9kap)
+
+Nothing was implemented yet, so you can choose your language, framework and basicaly everything!
 
 ## We want you!
 
 Some areas that we want to collaborate on but don't have time or skills (or both):
 
-- **iOS Lab** – very important for a networking app
-- **Web Lab** – web-client and landing page are both very useful
+- iOS ([@y9san9](https://github.com/y9san9) managing 3 repos is not easy)
+- Telegram Bot (or any kind of social bot)
+
