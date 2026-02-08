@@ -34,24 +34,37 @@ with a single `value` property inside. Raw values are rejected.** It helps to
 distinguish between explicit `null` and absent value. That is just much easier
 to implement in majority of languages.
 
+- `nickname`
+    - Length: `1...256`
+- `description`
+    - Length: `1...1024`
+    - Nullable
+- `social_link`
+    - Length: `1...2048`
+    - Nullable
+    - There is no server validation whether this is a valid link
+- `interests`
+    - Max Amount: `100`
+    - Length of each: `1..64`
+
 | Field        | Comment                      |
 | -----------  | ---------------------------- |
 | nickname     | Length: `0...256`            |
 | description  | Length: `0...1024`           |
-| social_link  | Length: `0...2048`           |
+| social_link  |            |
 | interests    | Length: `0...64`             |
 | avatar       | Obtained via `/files/upload` |
 
-## Bad Request
+## 400 Bad Request
 
 If there is a validation error. This code usually means a logical error in the
 implementation of SDK you are using.
 
-## Not Authorized
+## 401 Not Authorized
 
 If provided authorization is invalid.
 
-## Success
+## 200 Success
 
 If user edit was successful.
 
