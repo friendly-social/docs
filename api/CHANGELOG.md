@@ -1,8 +1,14 @@
 # Changelog
 
-Current version: `2026.2`
+Current version: `2026.3`
 
-## 2026.2
+## 2026.3: Email Auth
+
+- New endpoints:
+    - [/auth/email](auth-email.md)
+    - [/auth/login](auth-login.md)
+
+## 2026.2: Email Linking
 
 - New endpoints:
     - [/email/link](email-link.md)
@@ -11,7 +17,7 @@ Current version: `2026.2`
 - `nickname`, `description`, `social_link`, `interest` now cannot be blank
     - They can be `null`, but they can't be a whitespace-only string.
 
-## 2026.1
+## 2026.1: User Editing
 
 - New endpoint: [/users/edit](users-edit.md)
 - Restricted max amount of interests from unlimited to `100`
