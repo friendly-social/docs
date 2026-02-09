@@ -20,7 +20,7 @@
    "interests": {
        "value": string[]
    },
-   "social_link": {
+   "socialLink": {
        "value": string?
    },
    "avatar": {
@@ -39,21 +39,15 @@ to implement in majority of languages.
 - `description`
     - Length: `1...1024`
     - Nullable
-- `social_link`
+- `socialLink`
     - Length: `1...2048`
     - Nullable
     - There is no server validation whether this is a valid link
 - `interests`
     - Max Amount: `100`
     - Length of each: `1..64`
-
-| Field        | Comment                      |
-| -----------  | ---------------------------- |
-| nickname     | Length: `0...256`            |
-| description  | Length: `0...1024`           |
-| social_link  |            |
-| interests    | Length: `0...64`             |
-| avatar       | Obtained via `/files/upload` |
+- `avatar`
+    - Obtained via `/files/upload`
 
 ## 400 Bad Request
 
@@ -80,7 +74,7 @@ curl https://api.getfriend.ly/users/edit
         "nickname": {
             "value": "New Nickname"
         },
-        "social_link": {
+        "socialLink": {
             "value": null,
         },
         "avatar": null,
@@ -92,5 +86,5 @@ This curl request works for a user with $userId and $token.
 It will:
 
 - Set `nickname` to be `"New Nickname"`
-- Set `social_link` to be `null`
+- Set `socialLink` to be `null`
 - **Will do nothing with `avatar`** and the rest of the omitted values

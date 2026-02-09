@@ -14,7 +14,7 @@ Current version: `2026.3`
     - [/email/link](email-link.md)
     - [/email/confirm](email-confirm.md)
     - [/email/unlink](email-unlink.md)
-- `nickname`, `description`, `social_link`, `interest` now cannot be blank
+- `nickname`, `description`, `socialLink`, `interest` now cannot be blank
     - They can be `null`, but they can't be a whitespace-only string.
 
 ## 2026.1: User Editing
