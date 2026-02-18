@@ -8,14 +8,13 @@ guess the code.
 Codes that are sent have 8 digits and it is expected to design an input view
 that divides this code into 2 parts in order to better remember it: xxxx-xxxx.
 
-> [!NOTE]
-> Right now no message is sent to the target email. And the code for email
-> confirmation is always `1111-1111`.
-
 - URL: `https://api.getfriend.ly/auth/email`
 - Method: `POST`
 - Headers:
     - `Content-Type: application/json`
+    - `X-Locale: $locale`
+        - `en`
+        - `ru`
 
 ## Request Body
 

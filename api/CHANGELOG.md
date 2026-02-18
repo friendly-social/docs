@@ -1,6 +1,14 @@
 # Changelog
 
-Current version: `2026.3`
+Current version: `2026.4`
+
+## 2026.4: Real Email Service
+
+- Changed endpoints:
+    - [/auth/email](auth-email.md)
+        - Added `X-Locale` header
+    - [/email/link](email-link.md)
+        - Added `X-Locale` header
 
 ## 2026.3: Email Auth
 

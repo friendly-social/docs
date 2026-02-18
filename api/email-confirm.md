@@ -17,7 +17,6 @@
 
 - `code`
     - Length: `8 digits`
-    - Always `11111111` as of now
 
 Codes that are sent have 8 digits and it is expected to design an input view
 that divides this code into 2 parts in order to better remember it: xxxx-xxxx.

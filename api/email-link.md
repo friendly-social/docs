@@ -6,6 +6,9 @@
     - `Content-Type: application/json`
     - `X-User-Id: $userId`
     - `X-Token: $token`
+    - `X-Locale: $locale`
+        - `en`
+        - `ru`
 
 ## Request Body
 
@@ -45,10 +48,6 @@ profile.
 
 Codes that are sent have 8 digits and it is expected to design an input view
 that divides this code into 2 parts in order to better remember it: xxxx-xxxx.
-
-> [!NOTE]
-> Right now no message is sent to the target email. And the code for email
-> confirmation is always `1111-1111`.
 
 ## Example
 
