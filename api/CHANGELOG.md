@@ -1,6 +1,13 @@
 # Changelog
 
-Current version: `2026.4`
+Current version: `2025.4.1`
+
+See [news](../news/README.md#Naming) for the first two numbers. Third number
+is a patch version.
+
+## 2025.4.1: Switching Releases Schema
+
+No changes on backend side.
 
 ## 2026.4: Real Email Service
 
