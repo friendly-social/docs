@@ -11,6 +11,16 @@ This lab is responsible for:
 - [friendly-social/backend](https://github.com/friendly-social/backend)
 - [friendly-social/kotlin-sdk](https://github.com/friendly-social/kotlin-sdk)
 
+## Web Lab
+
+Owners: @kotleni, @y9san9
+
+Technologies: TypeScript, React.js, Next.js, Tailwind CSS. Experimental architecture.
+
+This lab was responsible for:
+
+- [friendly-social/web](https://github.com/friendly-social/web)
+
 ## Android Lab
 
 > Owner: @demndevel
@@ -41,18 +51,6 @@ This lab is responsible for:
 
 - [friendly-social/cli](https://github.com/friendly-social/cli)
 - [friendly-social/golang-sdk](https://github.com/friendly-social/golang-sdk)
-
-## (Abandoned) Web Lab
-
-Previous owner: @kotleni
-
-Technologies: TypeScript, React.js, Next.js, Tailwind CSS. Experimental architecture.
-
-This lab was responsible for:
-
-- [friendly-social/web](https://github.com/friendly-social/web)
-
-No much is implemented tho. So you can start over.
 
 ## (Abandoned) Telegram Bot Lab
 
