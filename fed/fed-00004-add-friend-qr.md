@@ -1,5 +1,7 @@
 # Add Friend QR
 
+> Author: @y9san9
+
 Adding a friend is possible by using a QR Code. When you meet someone in real life, you can add them directly. We don't have public identifiers, so it is the only way other than searching [Feed](fed-00003-feed.md).
 
 QR can be generated when needed and it can not be used more than once. It is an intentional choice. You should review everyone you add manually. There should be no way of creating a public gateway from your previous social network to you current one.

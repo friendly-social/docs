@@ -1,5 +1,7 @@
 # Blocking QR
 
+> Author: @y9san9
+
 > This is a separate FED from Add Friend QR since previous one is already implemented in some clients. But this FED is an extension to the previous one.
 
 There's a problem that we need to acknowledge. It's a cold start problem. Even if the app has millions of users and someone just downloads the app, they will not be able to use it.

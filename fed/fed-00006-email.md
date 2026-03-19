@@ -1,5 +1,7 @@
 # Email
 
+> Author: @y9san9
+
 Email is a way to identify a user that wants to sign-in later in their profile.
 
 **Email is not required to use the app**.
