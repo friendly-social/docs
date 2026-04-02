@@ -9,7 +9,7 @@ Issues are not used, any decisions are stored in a separate `fed` directory as p
 ## Abstract
 
 - [Project Idea](IDEA.md)
-- [Season News](news/README.md)
+- [Quarter News](news/README.md)
 - [Friendly Evolution Decisions](fed/README.md)
 - [Development Process](LABS.md)
 - [Active Laboratories](DEVELOPERS.md)
