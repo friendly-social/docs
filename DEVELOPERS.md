@@ -8,6 +8,7 @@ Technologies: Kotlin, Ktor, Exposed, Coroutines.
 <br>Kotlin SDK is built on the same technlogies, while Go SDK is built using only the standard library. 
 
 This lab is responsible for:
+- [friendly-social/backend](https://github.com/friendly-social/backend)
 - [friendly-social/kotlin-sdk](https://github.com/friendly-social/kotlin-sdk)
 - [friendly-social/golang-sdk](https://github.com/friendly-social/golang-sdk)
 
